@@ -1,0 +1,93 @@
+body {
+
+    font-family: monospace;
+    
+    }
+    
+    ul {
+    
+    font-family: helvetica;
+    
+    }
+
+    li {
+
+        list-style: circle;
+        
+        }
+        
+        .list {
+        
+        list-style: square;
+        
+        }
+        
+        #msg {
+        
+        font-family: monospace;
+        
+        }
+        .light-theme {
+
+            color: #000000;
+            
+            background: #ffffff;
+            
+            }
+            :root {
+                --pink: #f700ff;
+                --white: #ffffff;
+                --black: #000000;
+            }
+
+            .light-theme {
+                --bg: var(--pink);
+                --fontColor: var(--black);
+            }
+
+            .dark-theme {
+                --bg: var(--black);
+                --fontColor: var(--pink);
+            }
+            
+            * {
+                color: var(--fontColor);
+                font-family: Helvetica;
+            }
+            body{
+                background: var(--bg);
+            }
+            .btn {
+                color: var(--btnFontColor);
+                background-color: var(--btnBg);
+            }
+            .btn {
+                position: absolute;
+                top: 20px;
+                left: 250px;
+                height: 50px;
+                width: 50px;
+                border-radius: 50%;
+                border: none;
+                color: var(--btnFontColor);
+                background-color: var(--btnBg);
+            
+            }
+            .btn:focus {outline-style: none;}
+            
+            .light-theme {
+                --bg: var(--pink);
+                --fontcolor: var(--black);
+                --btnBg: var(--black);
+                --btnFontColor: var(--black);
+            }
+            .dark-theme{
+                --bg: var(--pink);
+                --fontcolor: var(--black);
+                --btnBg: var(--black);
+                --btnFontColor: var(--black);
+            }
+
+            input[type=checkbox] {
+                accent-color: #FF0043;
+            }
